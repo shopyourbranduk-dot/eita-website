@@ -764,13 +764,14 @@ export const DAILY_MISSIONS: DailyMission[] = [
 ];
 
 export const COIN_PACKAGES = [
-  { id: 'coin_pack_rs157', coins: 250000, bonus: 0, priceUsd: 1.57, tag: 'Rs 157 Special Pack' },
-  { id: 'coin_pack_1', coins: 2000, bonus: 0, priceUsd: 1.99, tag: 'Starter' },
-  { id: 'coin_pack_2', coins: 5500, bonus: 500, priceUsd: 4.99, tag: 'Popular' },
-  { id: 'coin_pack_3', coins: 12000, bonus: 2000, priceUsd: 9.99, tag: 'Best Value' },
-  { id: 'coin_pack_4', coins: 32000, bonus: 7000, priceUsd: 24.99, tag: 'Party Pack' },
-  { id: 'coin_pack_5', coins: 68000, bonus: 18000, priceUsd: 49.99, tag: 'High Roller' },
-  { id: 'coin_pack_6', coins: 150000, bonus: 50000, priceUsd: 99.99, tag: 'VIP Whale' },
+  { id: 'coin_pack_rs157', coins: 250000, bonus: 0, priceUsd: 0.56, tag: 'Rs 157 Standard' },
+  { id: 'coin_pack_1', coins: 300000, bonus: 0, priceUsd: 0.56, tag: '+20% Bonus' },
+  { id: 'coin_pack_2', coins: 500000, bonus: 0, priceUsd: 1.12, tag: 'Mega 2x Value' },
+  { id: 'coin_pack_3', coins: 600000, bonus: 0, priceUsd: 1.35, tag: '600K' },
+  { id: 'coin_pack_4', coins: 1300000, bonus: 0, priceUsd: 2.91, tag: '1.3M' },
+  { id: 'coin_pack_5', coins: 3000000, bonus: 0, priceUsd: 6.72, tag: '3M' },
+  { id: 'coin_pack_6', coins: 6000000, bonus: 0, priceUsd: 13.44, tag: '6M' },
+  { id: 'coin_pack_7', coins: 14000000, bonus: 0, priceUsd: 31.40, tag: '14M' },
 ];
 
 export const INITIAL_LEADERBOARD_HOSTS: LeaderboardEntry[] = [
